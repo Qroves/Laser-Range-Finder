@@ -54,8 +54,7 @@ if rval == 1 :
 			if tan_theta > 0: # bit of error checking
 				obj_dist =  int(5.33 / tan_theta)
 			
-			
 			print ("\033[12;0H" + "the dot is " + str(obj_dist) + "cm  away")
 elif rval == 0:
-		print (" webcam error ")
+		print ("webcam error")
 		
